@@ -1,0 +1,54 @@
+.uwall-about h2 {
+  color: #b71c1c;
+  margin-bottom: 0.25rem;
+}
+
+.uwall-about-hero {
+  margin-bottom: 1.75rem;
+}
+
+.uwall-about .uwall-section-subtitle {
+  max-width: none;
+  white-space: nowrap;
+}
+
+.uwall-about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.2rem;
+}
+
+.uwall-about-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 1.2rem 1.4rem;
+  border: 1px solid #f2b8b5;
+}
+
+.uwall-about-card h3 {
+  margin-top: 0;
+}
+
+.uwall-about-card ul,
+.uwall-about-card ol {
+  padding-left: 1.3rem;
+}
+
+.uwall-about-team-card {
+  background: linear-gradient(135deg, #ffebee, #ffffff);
+}
+
+.uwall-about-team {
+  list-style: none;
+  padding-left: 0;
+}
+
+.uwall-about-team li {
+  margin-bottom: 0.6rem;
+}
+
+.uwall-about-team span {
+  display: block;
+  font-size: 0.9rem;
+  color: #555;
+}

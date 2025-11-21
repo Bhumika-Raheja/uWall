@@ -1,0 +1,33 @@
+.uwall-legal {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 1.5rem 1.7rem 2rem;
+  border: 1px solid #f2b8b5;
+}
+
+.uwall-legal h2 {
+  color: #b71c1c;
+  margin-top: 0;
+}
+
+.uwall-legal h3 {
+  margin-top: 1.4rem;
+}
+
+.uwall-legal ul {
+  padding-left: 1.3rem;
+}
+
+.uwall-legal-summary {
+  margin-top: 0.75rem;
+  margin-bottom: 1.2rem;
+  padding: 0.9rem 1rem;
+  border-radius: 10px;
+  background: #fff5f5;
+  border: 1px solid #ffcdd2;
+}
+
+.uwall-legal-summary-alt {
+  background: #f3f7ff;
+  border-color: #c5cae9;
+}

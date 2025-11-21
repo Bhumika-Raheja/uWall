@@ -1,0 +1,132 @@
+.uwall-events h2 {
+  color: #b71c1c;
+}
+
+.uwall-events .uwall-section-subtitle {
+  max-width: 100%;
+}
+
+.uwall-events-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.uwall-events-filters input,
+.uwall-events-filters select {
+  padding: 0.45rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  font-size: 0.9rem;
+}
+
+.uwall-events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.uwall-event-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.2rem;
+  border: 1px solid #f2b8b5;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  cursor: pointer;
+}
+
+.uwall-event-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.uwall-event-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.uwall-event-tag {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  background: #ffebee;
+  color: #b71c1c;
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.uwall-event-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.uwall-event-meta span::before {
+  content: '• ';
+}
+
+.uwall-events-empty {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.uwall-event-detail {
+  margin-top: 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid #f2b8b5;
+}
+
+.uwall-event-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.uwall-event-detail-header a {
+  font-size: 0.85rem;
+  color: #b71c1c;
+}
+
+.uwall-event-detail-meta {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.75rem;
+}
+
+.uwall-event-detail-section {
+  margin-top: 1rem;
+}
+
+.uwall-event-detail-section h4 {
+  margin-bottom: 0.4rem;
+  color: #b71c1c;
+}
+
+.uwall-event-detail-section ul {
+  padding-left: 1.2rem;
+}
+
+.uwall-event-detail-section li {
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.uwall-event-detail-note {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.uwall-event-detail-note a {
+  color: #b71c1c;
+}

@@ -1,0 +1,147 @@
+.uwall-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 2rem;
+  background: linear-gradient(90deg, #c62828, #9c1439);
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.uwall-header-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.uwall-logo-wrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.uwall-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.uwall-title {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.uwall-subtitle {
+  margin: 0;
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+
+.uwall-nav {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.uwall-nav-link {
+  color: #ffecec;
+  font-size: 0.95rem;
+}
+
+.uwall-nav-link:hover {
+  color: #ffffff;
+}
+
+.uwall-profile {
+  position: relative;
+}
+
+.uwall-profile-trigger {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.uwall-profile-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #c62828;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.uwall-profile-menu {
+  position: absolute;
+  right: 0;
+  top: 125%;
+  background: #ffffff;
+  color: #333;
+  border-radius: 10px;
+  border: 1px solid #f2b8b5;
+  padding: 0.5rem 0.75rem;
+  min-width: 180px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+  z-index: 20;
+}
+
+.uwall-profile-name {
+  font-size: 0.85rem;
+  margin-bottom: 0.3rem;
+}
+
+.uwall-profile-menu button {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.85rem;
+  color: #c62828;
+  cursor: pointer;
+}
+
+.uwall-profile-menu button:hover {
+  text-decoration: underline;
+}
+
+.uwall-nav-button {
+  padding: 0.3rem 0.9rem;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #c62828;
+  font-weight: 600;
+  border: none;
+}
+
+.uwall-nav-outline {
+  padding: 0.3rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid #ffe0e0;
+}
+
+.uwall-nav-outline:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+@media (max-width: 768px) {
+  .uwall-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .uwall-nav {
+    flex-wrap: wrap;
+  }
+}

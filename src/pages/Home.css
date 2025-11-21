@@ -1,0 +1,237 @@
+.uwall-home {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.uwall-hero {
+  display: grid;
+  grid-template-columns: 2fr 1.3fr;
+  gap: 1.8rem;
+  align-items: stretch;
+}
+
+.uwall-hero-text h2 {
+  margin-top: 0;
+  color: #b71c1c;
+  font-size: 2rem;
+}
+
+.uwall-hero-text p {
+  margin-bottom: 0.7rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.uwall-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.75rem;
+}
+
+.uwall-hero-button {
+  border-radius: 999px;
+  padding-inline: 1.4rem;
+  font-size: 0.95rem;
+}
+
+.uwall-hero-button-primary {
+  background: #c62828;
+  color: #ffffff;
+  box-shadow: 0 10px 18px rgba(198, 40, 40, 0.35);
+}
+
+.uwall-hero-button-primary:hover {
+  background: #b71c1c;
+}
+
+.uwall-hero-button-secondary {
+  background: transparent;
+  border: 1px solid #ffcdd2;
+}
+
+.uwall-hero-highlight {
+  background: linear-gradient(135deg, #ffebee, #ffeef8);
+  border-radius: 18px;
+  padding: 1.7rem 1.6rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 18px 40px rgba(211, 47, 47, 0.18);
+}
+
+.uwall-hero-highlight h3 {
+  margin-top: 0;
+}
+
+.uwall-home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.uwall-home-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 1.25rem 1.35rem;
+  border: 1px solid #f3c2c0;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.uwall-home-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.09);
+}
+
+.uwall-home-card h3 {
+  margin-top: 0;
+  color: #c62828;
+}
+
+.uwall-home-events {
+  margin-top: 1.5rem;
+}
+
+.uwall-home-events-subtitle {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.uwall-home-events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.1rem;
+  margin-top: 0.9rem;
+}
+.uwall-home-rating {
+  margin-top: 1.5rem;
+  padding: 1.3rem 1.4rem;
+  border-radius: 16px;
+  border: 1px dashed #f3c2c0;
+  background: rgba(255, 248, 248, 0.9);
+}
+
+.uwall-home-rating h3 {
+  margin-top: 0;
+  color: #c62828;
+}
+
+.uwall-home-rating-text {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.75rem;
+}
+
+.uwall-home-rating-control {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.uwall-home-rating-smiley {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 999px;
+  border: 1px solid #e0e0e0;
+  background: #ffffff;
+  font-size: 0.8rem;
+}
+
+.uwall-home-rating-smiley-active {
+  border-color: #c62828;
+  background: #ffebee;
+}
+
+.uwall-home-rating-smiley-icon {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.uwall-home-rating-smiley-value {
+  font-size: 0.7rem;
+  color: #555;
+}
+
+.uwall-home-rating-value {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.uwall-home-event-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 0.95rem 1.1rem;
+  border: 1px solid #f3c2c0;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.uwall-home-event-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.09);
+}
+
+.uwall-home-event-tag {
+  display: inline-block;
+  padding: 0.1rem 0.6rem;
+  border-radius: 999px;
+  background: #ffebee;
+  color: #b71c1c;
+  font-size: 0.75rem;
+  margin-bottom: 0.4rem;
+}
+
+.uwall-home-event-meta {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.uwall-home-event-meta span::before {
+  content: '• ';
+}
+
+@media (max-width: 768px) {
+  .uwall-home {
+    gap: 1.5rem;
+  }
+
+  .uwall-hero {
+    grid-template-columns: 1fr;
+    row-gap: 1.25rem;
+  }
+
+  .uwall-hero-highlight {
+    order: -1;
+  }
+
+  .uwall-home-events-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .uwall-home-event-meta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .uwall-hero-text h2 {
+    font-size: 1.4rem;
+  }
+
+  .uwall-hero-button {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .uwall-hero-highlight {
+    padding: 1.1rem;
+  }
+}

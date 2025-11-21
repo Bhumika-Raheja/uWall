@@ -1,0 +1,147 @@
+.uwall-gallery h2 {
+  color: #b71c1c;
+}
+
+.uwall-gallery-toolbar {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.uwall-gallery-club-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.uwall-gallery-toolbar-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.uwall-gallery-toolbar-right select {
+  padding: 0.45rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  font-size: 0.9rem;
+  background-color: #ffffff;
+}
+
+.uwall-chip {
+  border-radius: 999px;
+  padding: 0.2rem 0.9rem;
+  border: 1px solid #e0e0e0;
+  background: #ffffff;
+  color: #555;
+  font-size: 0.8rem;
+}
+
+.uwall-chip-active {
+  border-color: #c62828;
+  background: #ffebee;
+  color: #b71c1c;
+}
+
+.uwall-gallery-upload {
+  margin-top: 1rem;
+  padding: 1.2rem;
+  border-radius: 12px;
+  border: 1px solid #f2b8b5;
+  background: #fff;
+}
+
+.uwall-gallery-upload-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.uwall-gallery-file-label {
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.uwall-gallery-upload input[type='text'],
+.uwall-gallery-select,
+.uwall-gallery-date {
+  flex: 1;
+  min-width: 180px;
+  padding: 0.45rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  font-size: 0.9rem;
+}
+
+.uwall-gallery-error {
+  margin-top: 0.5rem;
+  color: #c62828;
+  font-size: 0.85rem;
+}
+
+.uwall-gallery-info {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.uwall-gallery-grid {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.uwall-gallery-item {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #f2b8b5;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.uwall-gallery-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.uwall-gallery-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.uwall-gallery-item figcaption {
+  padding: 0.6rem 0.75rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.uwall-gallery-caption {
+  font-size: 0.9rem;
+}
+
+.uwall-gallery-meta {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.uwall-gallery-uploader {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.uwall-gallery-empty {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}

@@ -1,0 +1,63 @@
+.uwall-clubs {
+  text-align: left;
+}
+
+.uwall-clubs h2 {
+  color: #b71c1c;
+}
+
+.uwall-clubs .uwall-section-subtitle {
+  max-width: 100%;
+}
+
+.uwall-clubs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.uwall-club-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid #f2b8b5;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  text-align: left;
+}
+
+.uwall-club-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.uwall-club-card-header h3 {
+  margin: 0;
+}
+
+.uwall-club-category {
+  font-size: 0.75rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  background: #ffebee;
+  color: #b71c1c;
+}
+
+.uwall-club-card p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.uwall-club-photos-link {
+  font-size: 0.85rem;
+  color: #c62828;
+  margin-top: 0.2rem;
+}
+
+.uwall-club-photos-link:hover {
+  text-decoration: underline;
+}

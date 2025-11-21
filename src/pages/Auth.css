@@ -1,0 +1,91 @@
+.uwall-auth {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  min-height: 80vh;
+  padding: 2.5rem 3rem 2.5rem 2rem;
+  box-sizing: border-box;
+}
+
+.uwall-auth-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 2.3rem 1.6rem;
+  max-width: 280px;
+  width: 100%;
+  border: 1px solid #f2b8b5;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.uwall-auth-card h2 {
+  margin-top: 0;
+  color: #b71c1c;
+}
+
+.uwall-auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.uwall-auth-form label {
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.uwall-auth-form input {
+  padding: 0.5rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  font-size: 0.95rem;
+}
+
+.uwall-auth-form input::placeholder {
+  text-align: left;
+}
+
+.uwall-auth-form input:focus {
+  outline: 2px solid #f2b8b5;
+  border-color: #c62828;
+}
+
+.uwall-auth-error {
+  color: #c62828;
+  font-size: 0.85rem;
+}
+
+.uwall-auth-hint {
+  font-size: 0.85rem;
+}
+
+.uwall-auth-hint a {
+  color: #c62828;
+}
+
+.uwall-auth-hint a:hover {
+  color: #b71c1c;
+}
+
+.uwall-auth-forgot {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+}
+
+.uwall-auth-forgot button {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  color: #c62828;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.uwall-auth-forgot button:hover {
+  color: #b71c1c;
+  text-decoration: underline;
+}
